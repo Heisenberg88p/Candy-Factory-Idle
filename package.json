@@ -5,11 +5,18 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+<<<<<<< codex/implement-build-01-foundation-and-layout-40lor6
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",
+=======
+    "build": "node scripts/build.mjs",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+>>>>>>> main
     "vite": "latest",
     "react": "latest",
     "react-dom": "latest"
